@@ -13,28 +13,12 @@
     <body>
         <ul id="people"></ul>
         <script>
-            /* var person = {
-                                                                                                    name: "Austin",
-                                                                                                    age: 22,
-                                                                                                    address: {
-                                                                                                        street: "362 Strickland rd",
-                                                                                                        city: "Brunswick"
-                                                                                                    }
-                                                                                                }
-                                                                                                
-                                                                                    var
-                                                                                    var output = '';
-                                                                                    for (var i = 0; i < people.length; i++) {
-                                                                                        output += '<li>' + people[i].name + '< /li>';
-                                                                                    }
-                                                                                    document.getElementById('people').innerHTML = output;
-                                                                               */
-
+        
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     var response = JSON.parse(xhttp.responseText);
-                      var people = reponse.people
+                      var people = reponse.people;
                             var output = '';
                                for (var i = 0; i < people.length; i++) {
                                 output += '<li>' + people[i].name + '< /li>';
