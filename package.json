@@ -1,0 +1,20 @@
+{
+  "name": "json_sandbox",
+  "version": "1.0.0",
+  "description": "json",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autinu90/Json_sandbox.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "austinUnderwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autinu90/Json_sandbox/issues"
+  },
+  "homepage": "https://autinu90.github.io/Json_sandbox"
+}
